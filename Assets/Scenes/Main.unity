@@ -44675,6 +44675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1187982351960527296, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1554338365982457192, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -44686,6 +44690,10 @@ PrefabInstance:
     - target: {fileID: 3305525545128146430, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305525545128146430, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5222280349519457727, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
       propertyPath: m_SortingLayer
@@ -44718,6 +44726,14 @@ PrefabInstance:
     - target: {fileID: 6040784402703293097, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475225444946855662, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475225444946855662, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6662655941698192074, guid: 5d8a255a55e4f49469c40f21477524ce, type: 3}
       propertyPath: whatIsGround.m_Bits

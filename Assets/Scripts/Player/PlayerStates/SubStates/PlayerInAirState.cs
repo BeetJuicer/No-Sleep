@@ -82,6 +82,7 @@ public class PlayerInAirState : PlayerState
 
         CheckJumpMultiplier();
 
+        /*
         if (player.InputHandler.AttackInputs[(int)CombatInputs.primary])
         {
             stateMachine.ChangeState(player.PrimaryAttackState);
@@ -90,7 +91,7 @@ public class PlayerInAirState : PlayerState
         {
             stateMachine.ChangeState(player.SecondaryAttackState);
         }
-        else if (isGrounded && core.Movement.CurrentVelocity.y < 0.01f)
+        else*/ if (isGrounded && core.Movement.CurrentVelocity.y < 0.01f)
         {            
             stateMachine.ChangeState(player.LandState);
         }
