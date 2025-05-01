@@ -134,9 +134,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  whatIsPlayer:
+  whatIsTarget:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   damagePosition: {fileID: 3963137119114373070}
 --- !u!1 &6738790779447210884
 GameObject:

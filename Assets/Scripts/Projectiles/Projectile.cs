@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     private float speed;
     private float travelDistance;
     private float xStartPos;
+    float damage;
 
     [SerializeField]
     private float gravity;
@@ -23,7 +24,7 @@ public class Projectile : MonoBehaviour
     [SerializeField]
     private LayerMask whatIsGround;
     [SerializeField]
-    private LayerMask whatIsPlayer;
+    private LayerMask whatIsTarget;
     [SerializeField]
     private Transform damagePosition;
 
@@ -57,12 +58,16 @@ public class Projectile : MonoBehaviour
     {
         if (!hasHitGround)
         {
-            Collider2D damageHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsPlayer);
+            Collider2D damageHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsTarget);
             Collider2D groundHit = Physics2D.OverlapCircle(damagePosition.position, damageRadius, whatIsGround);
 
             if (damageHit)
             {
                 //damageHit.transform.SendMessage("Damage", attackDetails);
+                if(damageHit.TryGetComponent(out Combat combat))
+                {
+                    combat.Damage(damage);
+                }
                 Destroy(gameObject);
             }
 
@@ -86,6 +91,7 @@ public class Projectile : MonoBehaviour
     {
         this.speed = speed;
         this.travelDistance = travelDistance;
+        this.damage = damage;
         //attackDetails.damageAmount = damage;
     }
 

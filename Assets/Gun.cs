@@ -18,6 +18,9 @@ public class Gun : MonoBehaviour
     [Header("Shooting")]
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float shotsPerSecond;
+    [SerializeField] private int projectileSpeed;
+    [SerializeField] private int damage;
+    [SerializeField] private int projectileDistance;
     private float timeLastShot;
     private float cooldownPerShot;
     AimDirection aimDir = AimDirection.Right;
@@ -96,7 +99,7 @@ public class Gun : MonoBehaviour
             
             if(bullet.TryGetComponent(out Projectile projectile))
             {
-                projectile.FireProjectile(10f, 10f, 10f);
+                projectile.FireProjectile(projectileSpeed, projectileDistance, damage);
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,8 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
     private bool isKnockbackActive;
     private float knockbackStartTime;
 
+    public event Action onDamaged;
+
     public void LogicUpdate()
     {
         CheckKnockback();
@@ -14,7 +17,8 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
 
     public void Damage(float amount)
     {
-        Debug.Log(core.transform.parent.name + " Damaged!");
+        //Debug.Log(core.transform.parent.name + " Damaged!");
+        onDamaged?.Invoke();
     }
 
     public void Knockback(Vector2 angle, float strength, int direction)
