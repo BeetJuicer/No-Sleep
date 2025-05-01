@@ -45,11 +45,11 @@ public class Projectile : MonoBehaviour
         {
             //attackDetails.position = transform.position;
 
-            if (isGravityOn)
-            {
-                float angle = Mathf.Atan2(rb.linearVelocity.y, rb.linearVelocity.x) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-            }
+            //if (isGravityOn)
+            //{
+            //    float angle = Mathf.Atan2(rb.linearVelocity.y, rb.linearVelocity.x) * Mathf.Rad2Deg;
+            //    transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            //}
         }
     }
 
