@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ public class Gun : MonoBehaviour
     [Header("External")]
     [SerializeField] private Movement playerMovement;
     Camera cam;
+    [SerializeField] private GameObject visual;
     
     [Header("Shooting")]
     [SerializeField] private GameObject bulletPrefab;
@@ -53,6 +55,20 @@ public class Gun : MonoBehaviour
     {
         HandleRotation();
         HandleShooting();
+        HandleVisuals();
+    }
+
+    private void HandleVisuals()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            visual.SetActive(true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.J))
+        {
+            visual.SetActive(false);
+        }
     }
 
     void HandleRotation()
