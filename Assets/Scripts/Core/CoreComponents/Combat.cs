@@ -8,7 +8,7 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
     private bool isKnockbackActive;
     private float knockbackStartTime;
 
-    public event Action onDamaged;
+    public event Action<float> onDamaged;
 
     public void LogicUpdate()
     {
@@ -17,8 +17,8 @@ public class Combat : CoreComponent, IDamageable, IKnockbackable
 
     public void Damage(float amount)
     {
-        //Debug.Log(core.transform.parent.name + " Damaged!");
-        onDamaged?.Invoke();
+        Debug.Log(core.transform.parent.name + " Damaged!: " + amount);
+        onDamaged?.Invoke(amount);
     }
 
     public void Knockback(Vector2 angle, float strength, int direction)

@@ -50,7 +50,7 @@ public class DamageFlash : MonoBehaviour
         
     }
 
-    public void CallDamageFlash()
+    public void CallDamageFlash(float damage)
     {
         damageFlashCoroutine = StartCoroutine(Damageflasher());   
     }

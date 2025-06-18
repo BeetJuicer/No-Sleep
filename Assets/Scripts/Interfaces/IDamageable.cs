@@ -6,5 +6,5 @@ using UnityEngine;
 public interface IDamageable
 {
     void Damage(float amount);
-    public event Action onDamaged;
+    public event Action<float> onDamaged;
 }
