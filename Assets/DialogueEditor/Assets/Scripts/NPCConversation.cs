@@ -12,7 +12,6 @@ namespace DialogueEditor
         V1_03 = 103,    // Initial save data
         V1_10 = 110,    // Parameters
     }
-    
 
     //--------------------------------------
     // Conversation Monobehaviour (Serialized)
@@ -46,13 +45,17 @@ namespace DialogueEditor
         public UnityEngine.Events.UnityEvent Event;
         public List<EditableParameter> ParameterList; // Serialized into the json string
 
-        
+
 
 
         //--------------------------------------
         // Util
         //--------------------------------------
 
+        public void StartConversation()
+        {
+            ConversationManager.Instance.StartConversation(this);
+        }
         public NodeEventHolder GetNodeData(int id)
         {
             // Create list if none

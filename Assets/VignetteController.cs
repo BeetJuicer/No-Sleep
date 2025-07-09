@@ -58,6 +58,13 @@ public class VignetteController : MonoBehaviour
     }
 
     // Public methods for controlling vignette properties
+
+    public void SetLampPresetAnimationValues()
+    {
+        minIntensity = 0.5f;
+        maxIntensity = 0.65f;
+    }
+
     public void SetVignetteIntensity(float intensity)
     {
         if (vignette != null)
