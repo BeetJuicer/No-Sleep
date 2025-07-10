@@ -16,51 +16,41 @@ MonoBehaviour:
     _serializedList:
     - Key: Brown
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Red
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Orange
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Yellow
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Green
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Blue
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Violet
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Indigo
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: White
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
     - Key: Black
       Value:
-        id: 
-        uiImage: {fileID: 0}
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0

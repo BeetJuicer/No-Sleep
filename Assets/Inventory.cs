@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using AYellowpaper.SerializedCollections;
 using System.Linq;
+using System.Collections.Generic;
+using System;
 
 [System.Serializable]
 public struct InventoryItem
@@ -12,9 +14,9 @@ public struct InventoryItem
 
 public class Inventory : MonoBehaviour
 {
+    public event Action<string, InventoryItem> onItemObtained;
+    public event Action<string, InventoryItem> onItemRemoved;
 
-
-    // Dictionary for fast lookups\
     [SerializeField] private ItemDatabase[] databases;
 
     [SerializeField] [SerializedDictionary]
@@ -64,8 +66,36 @@ public class Inventory : MonoBehaviour
 
         if (inventory.TryGetValue(id, out InventoryItem item))
         {
+            //newly obtained.
+            if(!item.owned)
+                onItemObtained?.Invoke(id, item);
+
             item.owned = true;
             inventory[id] = item; // Update the dictionary
+        }
+        else
+        {
+            Debug.LogError($"{id} is not in inventory");
+        }
+    }
+
+    public void SetItemAsNotOwned(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            Debug.LogError("Item ID cannot be null or empty");
+            return;
+        }
+
+        if (inventory.TryGetValue(id, out InventoryItem item))
+        {
+            //newly removed.
+            if (item.owned)
+                onItemRemoved?.Invoke(id, item);
+
+            item.owned = false;
+            inventory[id] = item; // Update the dictionary
+            onItemRemoved?.Invoke(id, item);
         }
         else
         {
