@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fe79bb6d59d4d408de5e537e2f0842, type: 3}
+  m_Name: Keys
+  m_EditorClassIdentifier: 
+  items:
+    _serializedList:
+    - Key: Brown
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Red
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Orange
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Yellow
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Green
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Blue
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Violet
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Indigo
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: White
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
+    - Key: Black
+      Value:
+        id: 
+        uiImage: {fileID: 0}
+        owned: 0
