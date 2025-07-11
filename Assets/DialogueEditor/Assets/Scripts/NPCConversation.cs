@@ -367,8 +367,12 @@ namespace DialogueEditor
 
         private void CreateParameters(EditableConversation ec, Conversation conversation)
         {
+            if (ec.Parameters == null)
+                return; //carl added
+
             for (int i = 0; i < ec.Parameters.Count; i++)
             {
+                print(i);
                 if (ec.Parameters[i].ParameterType == EditableParameter.eParamType.Bool)
                 {
                     EditableBoolParameter editableParam = ec.Parameters[i] as EditableBoolParameter;
