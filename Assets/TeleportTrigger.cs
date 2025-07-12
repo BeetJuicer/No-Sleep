@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class TeleportTrigger : MonoBehaviour
 {
@@ -8,16 +10,35 @@ public class TeleportTrigger : MonoBehaviour
         Y,
         Both
     }
-
     [SerializeField] Transform teleportTo;
     [SerializeField] LayerMask whatIsTeleportable;
     [SerializeField] TPMode tpMode;
+    [SerializeField] float wait;
+    private HashSet<Collider2D> objectsInTrigger = new HashSet<Collider2D>();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if((whatIsTeleportable & (1 << collision.gameObject.layer)) != 0)
+        if ((whatIsTeleportable & (1 << collision.gameObject.layer)) != 0)
         {
-            switch(tpMode)
+            StartCoroutine(TeleportAfterWait(collision));
+        }
+    }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        objectsInTrigger.Remove(collision);
+    }
+
+    private IEnumerator TeleportAfterWait(Collider2D collision)
+    {
+        objectsInTrigger.Add(collision);
+        yield return new WaitForSeconds(wait);
+
+        // Check if the collision object still exists and is still in the trigger
+        if (collision != null && collision.gameObject != null && objectsInTrigger.Contains(collision))
+        {
+            switch (tpMode)
             {
                 case TPMode.X:
                     collision.transform.position = new Vector3(teleportTo.position.x, collision.transform.position.y, collision.transform.position.z);
@@ -29,7 +50,8 @@ public class TeleportTrigger : MonoBehaviour
                     collision.transform.position = teleportTo.position;
                     break;
             }
-
         }
+
+        objectsInTrigger.Remove(collision);
     }
 }
