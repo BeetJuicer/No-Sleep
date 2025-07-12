@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class TeleportTrigger : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class TeleportTrigger : MonoBehaviour
     [SerializeField] TPMode tpMode;
     [SerializeField] float wait;
     private HashSet<Collider2D> objectsInTrigger = new HashSet<Collider2D>();
+
+    public event Action onTeleport;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -50,6 +53,8 @@ public class TeleportTrigger : MonoBehaviour
                     collision.transform.position = teleportTo.position;
                     break;
             }
+
+            onTeleport?.Invoke();
         }
 
         objectsInTrigger.Remove(collision);

@@ -11,11 +11,14 @@ public class Door : MonoBehaviour
     
     Inventory inventory;
     TopDown.PlayerMovement player;
+
+    LoopingRoom loopingRoom;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         inventory = FindFirstObjectByType<Inventory>();
         player = FindFirstObjectByType<TopDown.PlayerMovement>();
+        loopingRoom = FindFirstObjectByType<LoopingRoom>();
     }
 
    public void Interact()
@@ -26,6 +29,7 @@ public class Door : MonoBehaviour
             return;
         }
 
+        loopingRoom.ExitRoom();
         EnterDoor();
     }
 

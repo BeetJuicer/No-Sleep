@@ -14,6 +14,8 @@ public class LoopingRoom : MonoBehaviour
     bool needsPositionUpdate;
     Vector3 pendingPlayerPosition;
 
+    public bool isLooping;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,11 +38,15 @@ public class LoopingRoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isLooping) return;
+
         CheckForLooping();
     }
 
     private void LateUpdate()
     {
+        if (!isLooping) return;
+
         // check for looping update for accuracy, but apply it in late update to prevent flickers from camera.
         ApplyLooping();
     }
@@ -89,5 +95,15 @@ public class LoopingRoom : MonoBehaviour
             player.position = pendingPlayerPosition;
             needsPositionUpdate = false;
         }
+    }
+
+    public void EnterRoom()
+    {
+        isLooping = true;
+    }
+
+    public void ExitRoom()
+    {
+        isLooping = false;
     }
 }
