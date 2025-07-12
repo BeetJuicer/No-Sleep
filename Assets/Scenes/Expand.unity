@@ -8188,7 +8188,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1781885860}
-  - component: {fileID: 1781885861}
   m_Layer: 0
   m_Name: Cabinet Section
   m_TagString: Untagged
@@ -8206,7 +8205,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1155, y: 0.8791, z: 0}
-  m_LocalScale: {x: 38.50325, y: 25.739264, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1404780236}
@@ -8214,61 +8213,6 @@ Transform:
   - {fileID: 464110770}
   m_Father: {fileID: 764715090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1781885861
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1781885859}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3207547, g: 0.21215536, b: 0.13213478, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1802092473
 GameObject:
   m_ObjectHideFlags: 0
@@ -10809,77 +10753,25 @@ PrefabInstance:
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 635409650}
-    - target: {fileID: 1917926275686203131, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
     - target: {fileID: 1924582767975131031, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: m_Name
       value: Cabinet Room - Core
       objectReference: {fileID: 0}
-    - target: {fileID: 2568232985897179068, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -2094150559, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 2568232985897179068, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2568232985897179068, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2568232985897179068, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2689528790695564615, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 2783977851130596253, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 2864930636178827836, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
     - target: {fileID: 3390806871833708747, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1137841002}
-    - target: {fileID: 3621373715099927281, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 4341367731796836282, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1931280708, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 4341367731796836282, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
+    - target: {fileID: 3390806871833708747, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4341367731796836282, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341367731796836282, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4494084859004424684, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
     - target: {fileID: 4577036200633959735, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4577036200633959735, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4577036200633959735, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10912,126 +10804,6 @@ PrefabInstance:
     - target: {fileID: 4577036200633959735, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4669292464397003994, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 4801235846480960382, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8719906612575577302, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 4801235846480960382, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801235846480960382, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801235846480960382, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5036569256220574836, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 7184356878060376507, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 5036569256220574836, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5036569256220574836, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5036569256220574836, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5110959276205601745, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -5287934492926353265, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 5110959276205601745, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5110959276205601745, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5110959276205601745, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6946756094089664616, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -716214741, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 6946756094089664616, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6946756094089664616, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6946756094089664616, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6950016307728849857, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 7005125275935852798, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315406779992926769, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8625222492894962938, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 7315406779992926769, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315406779992926769, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7315406779992926769, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797945507119807044, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 429057382, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
-    - target: {fileID: 7797945507119807044, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797945507119807044, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7797945507119807044, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7966114580268622713, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 519420031}
-    - target: {fileID: 8479981466561828804, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8479981466561828804, guid: c925c7224a4e5564e9e23cb46b5193a3, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 2038257131
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
