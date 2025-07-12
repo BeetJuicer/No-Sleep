@@ -10,16 +10,28 @@ public struct InventoryItem
 {
     public Sprite uiImage;
     public bool owned;
+    public bool isUsable; // New field to determine if item can be used
+    public ItemEffect[] effects; // Array of effects this item has
 }
 
+[System.Serializable]
+public abstract class ItemEffect : ScriptableObject
+{
+    public abstract void ApplyEffect();
+    public abstract string GetEffectDescription();
+}
+
+// Updated Inventory class
 public class Inventory : MonoBehaviour
 {
     public event Action<string, InventoryItem> onItemObtained;
     public event Action<string, InventoryItem> onItemRemoved;
+    public event Action<string, InventoryItem> onItemUsed; // New event for item usage
 
     [SerializeField] private ItemDatabase[] databases;
 
-    [SerializeField] [SerializedDictionary]
+    [SerializeField]
+    [SerializedDictionary]
     private SerializedDictionary<string, InventoryItem> inventory = new SerializedDictionary<string, InventoryItem>();
 
     private void Start()
@@ -40,7 +52,6 @@ public class Inventory : MonoBehaviour
             {
                 print($"Loading {database.items.Count} items from database");
 
-                // Add each item from the database to inventory
                 foreach (var kvp in database.items)
                 {
                     if (!inventory.ContainsKey(kvp.Key))
@@ -66,12 +77,11 @@ public class Inventory : MonoBehaviour
 
         if (inventory.TryGetValue(id, out InventoryItem item))
         {
-            //newly obtained.
-            if(!item.owned)
+            if (!item.owned)
                 onItemObtained?.Invoke(id, item);
 
             item.owned = true;
-            inventory[id] = item; // Update the dictionary
+            inventory[id] = item;
         }
         else
         {
@@ -89,13 +99,55 @@ public class Inventory : MonoBehaviour
 
         if (inventory.TryGetValue(id, out InventoryItem item))
         {
-            //newly removed.
             if (item.owned)
                 onItemRemoved?.Invoke(id, item);
 
             item.owned = false;
-            inventory[id] = item; // Update the dictionary
-            onItemRemoved?.Invoke(id, item);
+            inventory[id] = item;
+        }
+        else
+        {
+            Debug.LogError($"{id} is not in inventory");
+        }
+    }
+
+    // New method to use an item
+    public void UseItem(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            Debug.LogError("Item ID cannot be null or empty");
+            return;
+        }
+
+        if (inventory.TryGetValue(id, out InventoryItem item))
+        {
+            if (!item.owned)
+            {
+                Debug.LogWarning($"Item {id} is not owned and cannot be used");
+                return;
+            }
+
+            if (!item.isUsable)
+            {
+                Debug.LogWarning($"Item {id} is not usable");
+                return;
+            }
+
+            // Apply all effects
+            if (item.effects != null)
+            {
+                foreach (var effect in item.effects)
+                {
+                    if (effect != null)
+                    {
+                        effect.ApplyEffect();
+                    }
+                }
+            }
+
+            onItemUsed?.Invoke(id, item);
+            Debug.Log($"Used item: {id}");
         }
         else
         {
@@ -112,6 +164,17 @@ public class Inventory : MonoBehaviour
         }
 
         return inventory.TryGetValue(id, out InventoryItem item) && item.owned;
+    }
+
+    public bool IsItemUsable(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            Debug.LogWarning("Item ID cannot be null or empty");
+            return false;
+        }
+
+        return inventory.TryGetValue(id, out InventoryItem item) && item.isUsable;
     }
 
     public Sprite GetItemUIImage(string id)
@@ -165,7 +228,7 @@ public class Inventory : MonoBehaviour
         return count;
     }
 
-    public void AddItem(string id, Sprite uiImage = null, bool owned = false)
+    public void AddItem(string id, Sprite uiImage = null, bool owned = false, bool isUsable = false, ItemEffect[] effects = null)
     {
         if (string.IsNullOrEmpty(id))
         {
@@ -182,7 +245,9 @@ public class Inventory : MonoBehaviour
         var newItem = new InventoryItem
         {
             uiImage = uiImage,
-            owned = owned
+            owned = owned,
+            isUsable = isUsable,
+            effects = effects
         };
 
         inventory[id] = newItem;
