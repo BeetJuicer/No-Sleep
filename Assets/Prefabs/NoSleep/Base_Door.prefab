@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 7531369466453735850}
   - component: {fileID: 3531575974680989107}
   - component: {fileID: 181596830521835337}
+  - component: {fileID: 9140046287736587345}
   m_Layer: 0
   m_Name: Base_Door
   m_TagString: Untagged
@@ -187,8 +188,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1443800153
-  m_SortingLayer: 5
+  m_SortingLayerID: 363490495
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 887925642, guid: f3b3c6ef09cc7e248b8235dfa48cc01a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -217,6 +218,43 @@ MonoBehaviour:
   keyName: White
   enterLocation: {fileID: 806510175223719929}
   lockedConversation: {fileID: 1348419757818107317}
+--- !u!70 &9140046287736587345
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444642634955225939}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1.5646687, y: 0.32950073}
+  m_Direction: 1
 --- !u!1 &6802083696464484321
 GameObject:
   m_ObjectHideFlags: 0
