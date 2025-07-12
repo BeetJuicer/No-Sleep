@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4577036200633959735}
-  - component: {fileID: 3390806871833708747}
   m_Layer: 0
   m_Name: Cabinet Room - Core
   m_TagString: Untagged
@@ -35,21 +34,6 @@ Transform:
   - {fileID: 3491947816536363611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3390806871833708747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924582767975131031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48a0582a6cff1744e95844a7e40c0c22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sRenderer: {fileID: 8479981466561828804}
-  player: {fileID: 0}
-  buffer: 0.005
 --- !u!1 &2094705083596754556
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330551077690918525}
   - component: {fileID: 8479981466561828804}
+  - component: {fileID: 3712154712036734463}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -218,6 +203,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3712154712036734463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7005125275935852798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a0582a6cff1744e95844a7e40c0c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sRenderer: {fileID: 8479981466561828804}
+  player: {fileID: 0}
+  buffer: 0.005
 --- !u!1001 &953935532767703561
 PrefabInstance:
   m_ObjectHideFlags: 0
