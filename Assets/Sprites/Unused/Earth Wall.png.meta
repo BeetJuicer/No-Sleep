@@ -145,6 +145,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -152,10 +165,10 @@ TextureImporter:
       name: Earth Wall_0
       rect:
         serializedVersion: 2
-        x: 60
-        y: 152
-        width: 20
-        height: 13
+        x: 48
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +187,10 @@ TextureImporter:
       name: Earth Wall_1
       rect:
         serializedVersion: 2
-        x: 108
-        y: 152
-        width: 20
-        height: 23
+        x: 96
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +209,10 @@ TextureImporter:
       name: Earth Wall_2
       rect:
         serializedVersion: 2
-        x: 156
-        y: 152
-        width: 20
-        height: 27
+        x: 144
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +231,10 @@ TextureImporter:
       name: Earth Wall_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 104
-        width: 20
-        height: 26
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +253,10 @@ TextureImporter:
       name: Earth Wall_4
       rect:
         serializedVersion: 2
-        x: 60
-        y: 104
-        width: 20
-        height: 26
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +275,10 @@ TextureImporter:
       name: Earth Wall_5
       rect:
         serializedVersion: 2
-        x: 108
-        y: 104
-        width: 20
-        height: 26
+        x: 96
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +297,10 @@ TextureImporter:
       name: Earth Wall_6
       rect:
         serializedVersion: 2
-        x: 159
-        y: 104
-        width: 17
-        height: 26
+        x: 144
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +319,10 @@ TextureImporter:
       name: Earth Wall_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 56
-        width: 16
-        height: 23
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +341,10 @@ TextureImporter:
       name: Earth Wall_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 56
-        width: 15
-        height: 20
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +363,10 @@ TextureImporter:
       name: Earth Wall_9
       rect:
         serializedVersion: 2
-        x: 113
-        y: 56
-        width: 15
-        height: 17
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +385,10 @@ TextureImporter:
       name: Earth Wall_10
       rect:
         serializedVersion: 2
-        x: 162
-        y: 56
-        width: 14
-        height: 14
+        x: 144
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +407,10 @@ TextureImporter:
       name: Earth Wall_11
       rect:
         serializedVersion: 2
-        x: 19
-        y: 8
-        width: 13
-        height: 11
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +429,10 @@ TextureImporter:
       name: Earth Wall_12
       rect:
         serializedVersion: 2
-        x: 67
-        y: 8
-        width: 13
-        height: 8
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,7 +451,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4115745424446464b95d66f6cfe147c3
     internalID: 0
     vertices: []
     indices: 
