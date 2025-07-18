@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
+using System;
 
 namespace DialogueEditor
 {
@@ -46,7 +47,7 @@ namespace DialogueEditor
         public List<EditableParameter> ParameterList; // Serialized into the json string
 
 
-
+        public event Action OnNPCConversationEnd;
 
         //--------------------------------------
         // Util
@@ -56,6 +57,12 @@ namespace DialogueEditor
         {
             ConversationManager.Instance.StartConversation(this);
         }
+
+        public void ConversationEnded()
+        {
+            OnNPCConversationEnd?.Invoke();
+        }
+
         public NodeEventHolder GetNodeData(int id)
         {
             // Create list if none

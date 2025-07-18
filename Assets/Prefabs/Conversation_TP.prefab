@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3520654176708207174}
   - component: {fileID: 6117687482278652208}
   - component: {fileID: 4837998016961752480}
+  - component: {fileID: 4903097924806178829}
   m_Layer: 0
   m_Name: Conversation_TP
   m_TagString: Untagged
@@ -75,6 +76,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {fileID: 0}
+--- !u!114 &4903097924806178829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051510735285101501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a235118da4b59042a221cb6ab355ca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnConversationEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4837998016961752480}
+        m_TargetAssemblyTypeName: Transitioner, Assembly-CSharp
+        m_MethodName: Transfer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3364141022413956003
 GameObject:
   m_ObjectHideFlags: 0

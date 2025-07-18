@@ -14,6 +14,7 @@ public class ConditionalConversation : MonoBehaviour
         None,
         AllItemsAcquired,
         IsSpecificItemAcquired,
+        FiveStudentsTalked
     }
 
     public string forSpecificItem;
@@ -23,10 +24,11 @@ public class ConditionalConversation : MonoBehaviour
 
     //refs
     private Inventory inventory;
-
+    ClassroomData classroom;
     private void Start()
     {
         inventory = FindFirstObjectByType<Inventory>();
+        classroom = FindFirstObjectByType<ClassroomData>();
     }
 
     public void StartConversation()
@@ -46,8 +48,13 @@ public class ConditionalConversation : MonoBehaviour
                 return inventory.AreAllItemsAcquired();
             case Condition.IsSpecificItemAcquired:
                 return inventory.IsItemOwned(forSpecificItem);
+            case Condition.FiveStudentsTalked:
+                return classroom.studentsTalkedTo >= 5;
             case Condition.None:
                 return true;
+            default:
+                Debug.LogError("unimplementedcase!");
+                break;
         }
 
         return true;

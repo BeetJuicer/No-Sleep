@@ -81,6 +81,7 @@ namespace DialogueEditor
         private List<UIConversationButton> m_uiOptions;
         private int m_currentSelectedIndex;
 
+        private NPCConversation m_currentNPCConversation;
 
         //--------------------------------------
         // Awake, Start, Destroy, Update
@@ -145,6 +146,7 @@ namespace DialogueEditor
 
         public void StartConversation(NPCConversation conversation)
         {
+            m_currentNPCConversation = conversation;
             m_conversation = conversation.Deserialize();
             if (OnConversationStarted != null)
                 OnConversationStarted.Invoke();
@@ -160,6 +162,8 @@ namespace DialogueEditor
 
             if (OnConversationEnded != null)
                 OnConversationEnded.Invoke();
+
+            m_currentNPCConversation.ConversationEnded();
         }
 
         public void SelectNextOption()
