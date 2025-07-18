@@ -34,6 +34,9 @@ public class Inventory : MonoBehaviour
     [SerializedDictionary]
     private SerializedDictionary<string, InventoryItem> inventory = new SerializedDictionary<string, InventoryItem>();
 
+
+    int itemsAcquired;
+
     private void Start()
     {
         LoadFromDatabases();
@@ -67,6 +70,15 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    [NaughtyAttributes.Button]
+    public void DebugTestOwnAllItems()
+    {
+        var keys = inventory.Keys.ToList();
+        foreach (var key in keys)
+        {
+            SetItemAsOwned(key);
+        }
+    }
     public void SetItemAsOwned(string id)
     {
         if (string.IsNullOrEmpty(id))
@@ -82,6 +94,7 @@ public class Inventory : MonoBehaviour
 
             item.owned = true;
             inventory[id] = item;
+            itemsAcquired++;
         }
         else
         {
@@ -109,6 +122,11 @@ public class Inventory : MonoBehaviour
         {
             Debug.LogError($"{id} is not in inventory");
         }
+    }
+
+    public bool AreAllItemsAcquired()
+    {
+        return itemsAcquired == GetTotalItemCount();
     }
 
     // New method to use an item

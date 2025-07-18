@@ -1,23 +1,20 @@
 using UnityEngine;
 using TopDown;
+using DialogueEditor;
 public class Transitioner : MonoBehaviour
 {
-    [SerializeField] private Transform playerTransform;
-    [SerializeField] private Transform[] positions;
+    private Transform playerTransform;
+    [SerializeField] private Transform position;
+    private NPCConversation npcConversation;
 
     private void Start()
     {
         playerTransform = FindFirstObjectByType<PlayerMovement>().transform;
+        npcConversation = GetComponent<NPCConversation>();
     }
 
-    public void Transfer(int i)
+    public void Transfer()
     {
-        if (i >= positions.Length)
-        {
-            Debug.LogError(i + " not in array!");
-            return;
-        }
-
-        playerTransform.position = positions[i].position;
+        playerTransform.position = position.position;
     }
 }

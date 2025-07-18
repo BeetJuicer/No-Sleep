@@ -14,43 +14,93 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
     _serializedList:
-    - Key: Brown
+    - Key: Photobook
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Red
+        isUsable: 0
+        effects: []
+    - Key: Caught
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Orange
+        isUsable: 0
+        effects: []
+    - Key: Lemonade
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Yellow
+        isUsable: 0
+        effects: []
+    - Key: Fun
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Green
+        isUsable: 0
+        effects: []
+    - Key: Cheese
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Blue
+        isUsable: 0
+        effects: []
+    - Key: Athletic
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Violet
+        isUsable: 0
+        effects: []
+    - Key: Artist
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Indigo
+        isUsable: 0
+        effects: []
+    - Key: Genius
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: White
+        isUsable: 0
+        effects: []
+    - Key: Validation
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
-    - Key: Black
+        isUsable: 0
+        effects: []
+    - Key: Star Employee
       Value:
         uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
         owned: 0
+        isUsable: 0
+        effects: []
+    - Key: Caffeinated
+      Value:
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        owned: 0
+        isUsable: 0
+        effects: []
+    - Key: Management
+      Value:
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        owned: 0
+        isUsable: 0
+        effects: []
+    - Key: Reminiscence
+      Value:
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        owned: 0
+        isUsable: 0
+        effects: []
+    - Key: Golden Sunset
+      Value:
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        owned: 0
+        isUsable: 0
+        effects: []
+    - Key: Telephone
+      Value:
+        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        owned: 0
+        isUsable: 0
+        effects: []

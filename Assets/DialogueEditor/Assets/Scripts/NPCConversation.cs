@@ -113,7 +113,6 @@ namespace DialogueEditor
 
 
 
-
         //--------------------------------------
         // Serialize and Deserialize
         //--------------------------------------
