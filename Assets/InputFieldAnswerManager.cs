@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class InputFieldAnswerManager : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class InputFieldAnswerManager : MonoBehaviour
     public Color defaultColor = Color.white;
 
     private Dictionary<TMP_InputField, string> answerDictionary;
+
+    public UnityEvent OnAnswersCorrect;
 
     void Start()
     {
@@ -134,8 +137,8 @@ public class InputFieldAnswerManager : MonoBehaviour
 
         if(AllAnswersCorrect())
         {
+            OnAnswersCorrect?.Invoke();
             gameObject.SetActive(false);
-            //evetn here.
         }
 
         // Optional: Clear feedback text when user makes changes
