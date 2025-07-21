@@ -36,6 +36,9 @@ namespace TopDown
 
         private void FixedUpdate()
         {
+            if (GameManager.Instance.CurrentGameState != GameManager.GameState.Gameplay)
+                return;
+
             if (playerInput != null)
             {
                 HandleMovement(playerInput.MovementInput);

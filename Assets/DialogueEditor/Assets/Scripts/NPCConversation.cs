@@ -328,7 +328,10 @@ namespace DialogueEditor
         }
 
 
-
+        public void EndConversation()
+        {
+            ConversationManager.Instance.EndConversation();
+        }
 
         //--------------------------------------
         // Construct User-Facing Conversation Object and Nodes
