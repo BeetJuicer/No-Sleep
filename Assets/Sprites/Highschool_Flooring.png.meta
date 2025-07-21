@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 152e4f1303580ff48ab038bfe0ecb947
+guid: 98066ad49f6a0de4b888af43ea6279d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6866700283137923114
-    second: Playrooms_Garbage_0
+      213: -8038493389104582354
+    second: Highschool_Flooring_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Playrooms_Garbage_0
+      name: Highschool_Flooring_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 29
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a289283b68b6b4f50800000000000000
-      internalID: 6866700283137923114
+      spriteID: e2178153ad8817090800000000000000
+      internalID: -8038493389104582354
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Playrooms_Garbage_0: 6866700283137923114
+      Highschool_Flooring_0: -8038493389104582354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

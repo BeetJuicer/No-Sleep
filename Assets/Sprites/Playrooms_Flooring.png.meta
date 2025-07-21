@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Playrooms_Flooring_0: 65114172882968361
+      Playrooms_Flooring_1: -4856108402329047355
+      Playrooms_Flooring_10: -5833216482960915193
+      Playrooms_Flooring_11: 476372534929496223
+      Playrooms_Flooring_12: 3463803357513508971
+      Playrooms_Flooring_13: 3759107369816852178
+      Playrooms_Flooring_14: -656633815391118120
+      Playrooms_Flooring_2: 6728709238763325154
+      Playrooms_Flooring_3: -5205559820317366404
+      Playrooms_Flooring_4: 7272307922775004871
+      Playrooms_Flooring_5: 861139933081424017
+      Playrooms_Flooring_6: 8607057566677263413
+      Playrooms_Flooring_7: -4352997760955483107
+      Playrooms_Flooring_8: 205735826257443662
+      Playrooms_Flooring_9: -6115497904260727284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
