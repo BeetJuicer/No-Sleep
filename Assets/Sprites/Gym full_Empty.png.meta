@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 43684d0f86208ca47badd405d2022ced
+guid: 2e52c811299f6f242a4892ff8f79da5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2726534846974622115
-    second: Higschool_Plant_0
+      213: -1721201607177683063
+    second: Gym full_Empty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Higschool_Plant_0
+      name: Gym full_Empty_0
       rect:
         serializedVersion: 2
-        x: 10
+        x: 0
         y: 0
-        width: 15
-        height: 31
+        width: 392
+        height: 802
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a975ad5ff896d520800000000000000
-      internalID: 2726534846974622115
+      spriteID: 98fb751f1401d18e0800000000000000
+      internalID: -1721201607177683063
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Higschool_Plant_0: 2726534846974622115
+      Gym full_Empty_0: -1721201607177683063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
