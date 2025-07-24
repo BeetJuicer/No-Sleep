@@ -41,20 +41,23 @@ public class TeleportTrigger : MonoBehaviour
         // Check if the collision object still exists and is still in the trigger
         if (collision != null && collision.gameObject != null && objectsInTrigger.Contains(collision))
         {
-            switch (tpMode)
+            Transition.Instance?.TransitionWithAction(() =>
             {
-                case TPMode.X:
-                    collision.transform.position = new Vector3(teleportTo.position.x, collision.transform.position.y, collision.transform.position.z);
-                    break;
-                case TPMode.Y:
-                    collision.transform.position = new Vector3(collision.transform.position.x, teleportTo.position.y, collision.transform.position.z);
-                    break;
-                case TPMode.Both:
-                    collision.transform.position = teleportTo.position;
-                    break;
-            }
+                switch (tpMode)
+                {
+                    case TPMode.X:
+                        collision.transform.position = new Vector3(teleportTo.position.x, collision.transform.position.y, collision.transform.position.z);
+                        break;
+                    case TPMode.Y:
+                        collision.transform.position = new Vector3(collision.transform.position.x, teleportTo.position.y, collision.transform.position.z);
+                        break;
+                    case TPMode.Both:
+                        collision.transform.position = teleportTo.position;
+                        break;
+                }
 
-            onTeleport?.Invoke();
+                onTeleport?.Invoke();
+            });
         }
 
         objectsInTrigger.Remove(collision);

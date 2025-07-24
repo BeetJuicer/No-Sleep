@@ -21,12 +21,12 @@ namespace TopDown
                 Destroy(this);
         }
 
-        public void StartCutscene()
+        public void StartSequence()
         {
             CurrentGameState = GameState.Sequence; 
         }
 
-        public void StopCutscene()
+        public void StopSequence()
         {
             CurrentGameState = GameState.Gameplay;
         }
