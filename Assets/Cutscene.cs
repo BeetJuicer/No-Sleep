@@ -17,14 +17,14 @@ public class Cutscene : MonoBehaviour
     private void PDirector_stopped(PlayableDirector obj)
     {
         if (freezeInput)
-            TopDown.GameManager.Instance.StopCutscene();
+            TopDown.GameManager.Instance.StopSequence();
     }
 
     private void PDirector_played(PlayableDirector obj)
     {
         if(freezeInput)
         {
-            TopDown.GameManager.Instance.StartCutscene();
+            TopDown.GameManager.Instance.StartSequence();
         }
     }
 }

@@ -15,6 +15,8 @@ public class Transitioner : MonoBehaviour
 
     public void Transfer()
     {
-        playerTransform.position = position.position;
+        Transition.Instance.TransitionWithAction(() => 
+            playerTransform.position = position.position
+        );
     }
 }
