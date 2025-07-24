@@ -145,19 +145,7 @@ public class SpritePaintMonitor : MonoBehaviour
     {
         Debug.Log("FULLY PAINTED!");
 
-        // You can add additional effects here:
-        // - Play a sound
-        // - Show particles
-        // - Trigger an animation
-        // - Call other game events
-
         GrantArtistEffect();
-
-        // Example: Change sprite color to indicate completion
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = Color.green;
-        }
     }
 
     private void GrantArtistEffect()

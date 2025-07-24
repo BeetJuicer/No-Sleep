@@ -37,7 +37,10 @@ namespace TopDown
         private void FixedUpdate()
         {
             if (GameManager.Instance.CurrentGameState != GameManager.GameState.Gameplay)
+            {
+                rb.linearVelocity = Vector2.zero;
                 return;
+            }
 
             if (playerInput != null)
             {
