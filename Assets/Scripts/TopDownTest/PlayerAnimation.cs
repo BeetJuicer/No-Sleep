@@ -6,23 +6,21 @@ namespace TopDown
     public class PlayerAnimation : MonoBehaviour
     {
         [Header("Animation Parameters")]
-        [SerializeField] private string isMovingParam = "IsMoving";
-        [SerializeField] private string horizontalParam = "Horizontal";
-        [SerializeField] private string verticalParam = "Vertical";
-        [SerializeField] private string lastHorizontalParam = "LastHorizontal";
-        [SerializeField] private string lastVerticalParam = "LastVertical";
+        [SerializeField] private string horizontalParam = "horizontalMovement";
+        [SerializeField] private string verticalParam = "verticalMovement";
+        [SerializeField] private string isMovingParam = "isMoving";
 
         private Animator animator;
         private PlayerInput playerInput;
         private PlayerMovement playerMovement;
-
-        private Vector2 lastMovementDirection = Vector2.down; // Default facing direction
+        SpriteRenderer spRenderer;
 
         private void Awake()
         {
             animator = GetComponent<Animator>();
             playerInput = GetComponent<PlayerInput>();
             playerMovement = GetComponent<PlayerMovement>();
+            spRenderer = GetComponent<SpriteRenderer>();
         }
 
         private void Update()
@@ -35,30 +33,15 @@ namespace TopDown
             if (playerInput == null || animator == null) return;
 
             Vector2 input = playerInput.MovementInput;
-            bool isMoving = playerInput.IsMoving;
+            bool isMoving = (Mathf.Abs(input.x) >= 0.1f) || (Mathf.Abs(input.y) >= 0.1f);
 
-            // Set movement state
-            animator.SetBool(isMovingParam, isMoving);
 
             // Set current movement direction
             animator.SetFloat(horizontalParam, input.x);
             animator.SetFloat(verticalParam, input.y);
+            animator.SetBool(isMovingParam, isMoving);
 
-            // Update last movement direction for idle animations
-            if (isMoving)
-            {
-                lastMovementDirection = input;
-            }
-
-            animator.SetFloat(lastHorizontalParam, lastMovementDirection.x);
-            animator.SetFloat(lastVerticalParam, lastMovementDirection.y);
-        }
-
-        public void SetFacingDirection(Vector2 direction)
-        {
-            lastMovementDirection = direction.normalized;
-            animator.SetFloat(lastHorizontalParam, lastMovementDirection.x);
-            animator.SetFloat(lastVerticalParam, lastMovementDirection.y);
+            spRenderer.flipX = Mathf.Sign(input.x) < 0;
         }
     }
 }
