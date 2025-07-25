@@ -8,14 +8,13 @@ public class LoopingRoomOpening : MonoBehaviour
     }
 
     TeleportTrigger tp;
-    LoopingRoom lp;
+    [SerializeField] LoopingRoom lp;
     [Tooltip("Entering the looping room or no?")]
     [SerializeField] OpeningMode mode;
 
     private void Start()
     {
         tp = GetComponent<TeleportTrigger>();
-        lp = FindFirstObjectByType<LoopingRoom>();
         tp.onTeleport += Tp_onTeleport;
     }
 
