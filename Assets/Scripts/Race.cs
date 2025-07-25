@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using DialogueEditor;
 using System.Collections;
 using TMPro;
@@ -10,6 +11,9 @@ public class Race : MonoBehaviour
     [SerializeField] NPCConversation lossConversation;
     [SerializeField] NPCMovement npc;
     [SerializeField] TextMeshProUGUI countdownText;
+
+
+    public UnityEvent onRaceFinished;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,6 +28,8 @@ public class Race : MonoBehaviour
 
     public void FinishRace(bool win)
     {
+        onRaceFinished?.Invoke();
+
         if (win)
         {
             inv.SetItemAsOwned("Athletic");

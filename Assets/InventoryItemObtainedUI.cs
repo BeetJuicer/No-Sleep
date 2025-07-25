@@ -1,13 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.Events;
 public class InventoryItemObtainedUI : MonoBehaviour
 {
     Inventory inventory;
     [SerializeField] TextMeshProUGUI itemNameText;
     [SerializeField] Image icon;
     WavePopupAnimation popup = null;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
