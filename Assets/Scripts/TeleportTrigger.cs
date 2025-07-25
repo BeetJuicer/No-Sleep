@@ -41,7 +41,7 @@ public class TeleportTrigger : MonoBehaviour
         // Check if the collision object still exists and is still in the trigger
         if (collision != null && collision.gameObject != null && objectsInTrigger.Contains(collision))
         {
-            Transition.Instance?.TransitionWithAction(() =>
+            Action tp = () =>
             {
                 switch (tpMode)
                 {
@@ -55,9 +55,16 @@ public class TeleportTrigger : MonoBehaviour
                         collision.transform.position = teleportTo.position;
                         break;
                 }
+            };
 
-                onTeleport?.Invoke();
-            });
+            if (Transition.Instance != null)
+                Transition.Instance?.TransitionWithAction(tp);
+            else
+                tp();
+
+            onTeleport?.Invoke();
+
+
         }
 
         objectsInTrigger.Remove(collision);
