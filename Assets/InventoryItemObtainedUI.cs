@@ -19,6 +19,7 @@ public class InventoryItemObtainedUI : MonoBehaviour
 
     private void Inventory_onItemObtained(string key, InventoryItem item)
     {
+
         itemNameText.text = key;
         icon.sprite = item.uiImage;
 
