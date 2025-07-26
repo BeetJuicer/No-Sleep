@@ -17,6 +17,7 @@ public class WavePopupAnimation : MonoBehaviour
 
     [Header("Show Settings")]
     public float showDuration = 2f;
+    public bool showOnStart;
 
     private Vector3 originalScale;
     private Vector3 startScale;
@@ -24,6 +25,9 @@ public class WavePopupAnimation : MonoBehaviour
     void Start()
     {
         originalScale = transform.localScale;
+
+        if (showOnStart)
+            StartCoroutine(PopupCoroutine());
     }
 
     /// <summary>

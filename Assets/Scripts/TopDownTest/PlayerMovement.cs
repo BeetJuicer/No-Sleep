@@ -19,7 +19,7 @@ namespace TopDown
         private Vector2 currentVelocity;
         private Vector2 targetVelocity;
 
-        public Vector2 CurrentVelocity => currentVelocity;
+        public Vector2 CurrentVelocity { get { return currentVelocity; } private set { currentVelocity = value; } }
         public bool IsMoving => currentVelocity.magnitude > 0.1f;
 
         private void Awake()

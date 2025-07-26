@@ -11,14 +11,12 @@ namespace TopDown
         [SerializeField] private string isMovingParam = "isMoving";
 
         private Animator animator;
-        private PlayerInput playerInput;
         private PlayerMovement playerMovement;
         SpriteRenderer spRenderer;
 
         private void Awake()
         {
             animator = GetComponent<Animator>();
-            playerInput = GetComponent<PlayerInput>();
             playerMovement = GetComponent<PlayerMovement>();
             spRenderer = GetComponent<SpriteRenderer>();
         }
@@ -30,18 +28,18 @@ namespace TopDown
 
         private void UpdateAnimations()
         {
-            if (playerInput == null || animator == null) return;
+            if (playerMovement == null || animator == null) return;
 
-            Vector2 input = playerInput.MovementInput;
-            bool isMoving = (Mathf.Abs(input.x) >= 0.1f) || (Mathf.Abs(input.y) >= 0.1f);
+            Vector2 movement = playerMovement.CurrentVelocity;
+            bool isMoving = (Mathf.Abs(movement.x) >= 0.1f) || (Mathf.Abs(movement.y) >= 0.1f);
 
 
             // Set current movement direction
-            animator.SetFloat(horizontalParam, input.x);
-            animator.SetFloat(verticalParam, input.y);
+            animator.SetFloat(horizontalParam, movement.x);
+            animator.SetFloat(verticalParam, movement.y);
             animator.SetBool(isMovingParam, isMoving);
 
-            spRenderer.flipX = Mathf.Sign(input.x) < 0;
+            spRenderer.flipX = Mathf.Sign(movement.x) < 0;
         }
     }
 }

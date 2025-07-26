@@ -12,10 +12,14 @@ public class InputFieldAnswerManager : MonoBehaviour
         public TMP_InputField inputField;
         public string correctAnswer;
         public string questionId; // Optional identifier for the question
+        public TextMeshProUGUI visual;
     }
 
     [Header("Input Fields Configuration")]
     public List<InputFieldAnswer> inputFieldAnswers = new List<InputFieldAnswer>();
+    public List<string> questions = new List<string>();
+    public List<TextMeshProUGUI> questionTexts = new List<TextMeshProUGUI>();
+    public List<TextMeshProUGUI> questionTextsChalkboard = new List<TextMeshProUGUI>();
 
     [Header("UI Elements")]
     public Button checkAnswersButton;
@@ -31,6 +35,7 @@ public class InputFieldAnswerManager : MonoBehaviour
     void Start()
     {
         InitializeDictionary();
+        InitializeVisuals();
 
         if (checkAnswersButton != null)
         {
@@ -38,18 +43,31 @@ public class InputFieldAnswerManager : MonoBehaviour
         }
     }
 
+    void InitializeVisuals()
+    {
+        for (int i = 0; i < questions.Count; i++)
+        {
+            questionTexts[i].text = questions[i];
+            questionTextsChalkboard[i].text = questions[i];
+        }
+    }
+
     void InitializeDictionary()
     {
         answerDictionary = new Dictionary<TMP_InputField, string>();
 
-        foreach (var item in inputFieldAnswers)
+        for (int i = 0; i < inputFieldAnswers.Count; i++)
         {
-            if (item.inputField != null)
+            if (inputFieldAnswers[i].inputField != null)
             {
-                answerDictionary[item.inputField] = item.correctAnswer;
+                answerDictionary[inputFieldAnswers[i].inputField] = inputFieldAnswers[i].correctAnswer;
+
+                var currentItem = inputFieldAnswers[i];
 
                 // Add listener to each input field for real-time checking
-                item.inputField.onValueChanged.AddListener(delegate { OnInputChanged(item.inputField); });
+                inputFieldAnswers[i].inputField.onValueChanged.AddListener(delegate {
+                    OnInputChanged(currentItem); 
+                });
             }
         }
     }
@@ -69,7 +87,7 @@ public class InputFieldAnswerManager : MonoBehaviour
         });
 
         // Add listener for real-time checking
-        inputField.onValueChanged.AddListener(delegate { OnInputChanged(inputField); });
+        inputField.onValueChanged.AddListener(delegate { OnInputChanged(new InputFieldAnswer() { correctAnswer = answer, inputField = inputField }); });
     }
 
     public void RemoveInputFieldAnswer(TMP_InputField inputField)
@@ -130,12 +148,17 @@ public class InputFieldAnswerManager : MonoBehaviour
         }
     }
 
-    private void OnInputChanged(TMP_InputField inputField)
+    private void OnInputChanged(InputFieldAnswer inputFieldAnswer)
     {
+        var inputField = inputFieldAnswer.inputField;
+
+        if (inputFieldAnswer.visual != null)
+            inputFieldAnswer.visual.text = inputField.text;
+
         // Reset color when user starts typing
         SetInputFieldColor(inputField, defaultColor);
 
-        if(AllAnswersCorrect())
+        if (AllAnswersCorrect())
         {
             OnAnswersCorrect?.Invoke();
             gameObject.SetActive(false);
