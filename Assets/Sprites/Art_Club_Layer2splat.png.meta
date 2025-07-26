@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: aabdaf7b545d84042b2ced92311e5d13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6533345135925723299
+    second: Art_Club_Layer2splat_0
+  - first:
+      213: -658878764479207010
+    second: Art_Club_Layer2splat_1
+  - first:
+      213: 1797321676156835487
+    second: Art_Club_Layer2splat_2
+  - first:
+      213: 7694969443363794386
+    second: Art_Club_Layer2splat_3
+  - first:
+      213: 3583322523798810408
+    second: Art_Club_Layer2splat_4
+  - first:
+      213: 7656073860546275964
+    second: Art_Club_Layer2splat_5
+  - first:
+      213: -499019621590973119
+    second: Art_Club_Layer2splat_6
+  - first:
+      213: -3218168260018672884
+    second: Art_Club_Layer2splat_7
+  - first:
+      213: 3412277439164783969
+    second: Art_Club_Layer2splat_8
+  - first:
+      213: -7046106840339069367
+    second: Art_Club_Layer2splat_9
+  - first:
+      213: 9103645429428391626
+    second: Art_Club_Layer2splat_10
+  - first:
+      213: -2303820152007150846
+    second: Art_Club_Layer2splat_11
+  - first:
+      213: 7645150425168674360
+    second: Art_Club_Layer2splat_12
+  - first:
+      213: -6093803854090722324
+    second: Art_Club_Layer2splat_13
+  - first:
+      213: -1884753326041261714
+    second: Art_Club_Layer2splat_14
+  - first:
+      213: 1721575761225609845
+    second: Art_Club_Layer2splat_15
+  - first:
+      213: 3315936512458502399
+    second: Art_Club_Layer2splat_16
+  - first:
+      213: 3913569723611011879
+    second: Art_Club_Layer2splat_17
+  - first:
+      213: 3681450770751950489
+    second: Art_Club_Layer2splat_18
+  - first:
+      213: 4908453883257789347
+    second: Art_Club_Layer2splat_19
+  - first:
+      213: -881986347089399887
+    second: Art_Club_Layer2splat_20
+  - first:
+      213: 8397010668052152616
+    second: Art_Club_Layer2splat_21
+  - first:
+      213: 1782864514142404565
+    second: Art_Club_Layer2splat_22
+  - first:
+      213: 7187152942294739099
+    second: Art_Club_Layer2splat_23
+  - first:
+      213: -3022336083411650875
+    second: Art_Club_Layer2splat_24
+  - first:
+      213: -5508506562509523147
+    second: Art_Club_Layer2splat_25
+  - first:
+      213: -5377014426617686839
+    second: Art_Club_Layer2splat_26
+  - first:
+      213: 5421684685032397005
+    second: Art_Club_Layer2splat_27
+  - first:
+      213: 6701853683301139190
+    second: Art_Club_Layer2splat_28
+  - first:
+      213: -3165443549263843533
+    second: Art_Club_Layer2splat_29
+  - first:
+      213: 1537323032334562770
+    second: Art_Club_Layer2splat_30
+  - first:
+      213: 8727292974890612110
+    second: Art_Club_Layer2splat_31
+  - first:
+      213: 1191091545794035290
+    second: Art_Club_Layer2splat_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 176
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a001e539ca1baa50800000000000000
+      internalID: 6533345135925723299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 202
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e992b2d21413bd6f0800000000000000
+      internalID: -658878764479207010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 163
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f961076ba8e51f810800000000000000
+      internalID: 1797321676156835487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 177
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd2f2560f50aca60800000000000000
+      internalID: 7694969443363794386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 169
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f2fa2a9d48ab130800000000000000
+      internalID: 3583322523798810408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 170
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aa300dc96df3a60800000000000000
+      internalID: 7656073860546275964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 120
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145ce1f4c402319f0800000000000000
+      internalID: -499019621590973119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 142
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b6622a405c653d0800000000000000
+      internalID: -3218168260018672884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 148
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d1f7c7048da5f20800000000000000
+      internalID: 3412277439164783969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 125
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946c32c1923373e90800000000000000
+      internalID: -7046106840339069367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace003ee845a65e70800000000000000
+      internalID: 9103645429428391626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 60
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2033a3527cf2700e0800000000000000
+      internalID: -2303820152007150846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 66
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83efa925ec7091a60800000000000000
+      internalID: 7645150425168674360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 90
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3240a5ea57e6ba0800000000000000
+      internalID: -6093803854090722324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 99
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e691318f5d208d5e0800000000000000
+      internalID: -1884753326041261714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 68
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57276c5980444e710800000000000000
+      internalID: 1721575761225609845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 77
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff036d280b2940e20800000000000000
+      internalID: 3315936512458502399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 78
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bde8bbdeacf4630800000000000000
+      internalID: 3913569723611011879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 56
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e02c888f3271330800000000000000
+      internalID: 3681450770751950489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 64
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab97fbfcc45e1440800000000000000
+      internalID: 4908453883257789347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_20
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfedfc171e82c3f0800000000000000
+      internalID: -881986347089399887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 29
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8210a6c96bc288470800000000000000
+      internalID: 8397010668052152616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 21
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df7b1064d10eb810800000000000000
+      internalID: 1782864514142404565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 29
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98a1e79585edb360800000000000000
+      internalID: 7187152942294739099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 14
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6376c58518e06d0800000000000000
+      internalID: -3022336083411650875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_25
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 38
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53736ba777add83b0800000000000000
+      internalID: -5508506562509523147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_26
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 45
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c45d4d1ed10165b0800000000000000
+      internalID: -5377014426617686839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 40
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc81887ee71bd3b40800000000000000
+      internalID: 5421684685032397005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 30
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2cec1ca64c10d50800000000000000
+      internalID: 6701853683301139190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_29
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 38
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fa399fcd51214d0800000000000000
+      internalID: -3165443549263843533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_30
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 52
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5f35f172ba55510800000000000000
+      internalID: 1537323032334562770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_31
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 51
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85fd13b8b29d1970800000000000000
+      internalID: 8727292974890612110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Art_Club_Layer2splat_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 31
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e3602437b978010800000000000000
+      internalID: 1191091545794035290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Art_Club_Layer2splat_0: 6533345135925723299
+      Art_Club_Layer2splat_1: -658878764479207010
+      Art_Club_Layer2splat_10: 9103645429428391626
+      Art_Club_Layer2splat_11: -2303820152007150846
+      Art_Club_Layer2splat_12: 7645150425168674360
+      Art_Club_Layer2splat_13: -6093803854090722324
+      Art_Club_Layer2splat_14: -1884753326041261714
+      Art_Club_Layer2splat_15: 1721575761225609845
+      Art_Club_Layer2splat_16: 3315936512458502399
+      Art_Club_Layer2splat_17: 3913569723611011879
+      Art_Club_Layer2splat_18: 3681450770751950489
+      Art_Club_Layer2splat_19: 4908453883257789347
+      Art_Club_Layer2splat_2: 1797321676156835487
+      Art_Club_Layer2splat_20: -881986347089399887
+      Art_Club_Layer2splat_21: 8397010668052152616
+      Art_Club_Layer2splat_22: 1782864514142404565
+      Art_Club_Layer2splat_23: 7187152942294739099
+      Art_Club_Layer2splat_24: -3022336083411650875
+      Art_Club_Layer2splat_25: -5508506562509523147
+      Art_Club_Layer2splat_26: -5377014426617686839
+      Art_Club_Layer2splat_27: 5421684685032397005
+      Art_Club_Layer2splat_28: 6701853683301139190
+      Art_Club_Layer2splat_29: -3165443549263843533
+      Art_Club_Layer2splat_3: 7694969443363794386
+      Art_Club_Layer2splat_30: 1537323032334562770
+      Art_Club_Layer2splat_31: 8727292974890612110
+      Art_Club_Layer2splat_32: 1191091545794035290
+      Art_Club_Layer2splat_4: 3583322523798810408
+      Art_Club_Layer2splat_5: 7656073860546275964
+      Art_Club_Layer2splat_6: -499019621590973119
+      Art_Club_Layer2splat_7: -3218168260018672884
+      Art_Club_Layer2splat_8: 3412277439164783969
+      Art_Club_Layer2splat_9: -7046106840339069367
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
