@@ -79,6 +79,14 @@ public class Inventory : MonoBehaviour
             SetItemAsOwned(key);
         }
     }
+
+    [NaughtyAttributes.Button]
+    public void DebugTestAddItem()
+    {
+        var thing = inventory.Where((x) => x.Value.owned == false).FirstOrDefault();
+        SetItemAsOwned(thing.Key);
+    }
+
     public void SetItemAsOwned(string id)
     {
         if (string.IsNullOrEmpty(id))

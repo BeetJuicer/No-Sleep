@@ -10,97 +10,97 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8fe79bb6d59d4d408de5e537e2f0842, type: 3}
-  m_Name: Keys
+  m_Name: Effects
   m_EditorClassIdentifier: 
   items:
     _serializedList:
     - Key: Photobook
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -5540211717611630791, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Caught
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: 851606910126540754, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Lemonade
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1399137715396394077, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Fun
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: 2828340220884935065, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Cheese
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Athletic
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: 4121776299354283072, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Artist
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -945211799981899988, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Genius
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: 7376394783089297109, guid: 120826456a8dcbf4796f0b0797b3548a, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Validation
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Star Employee
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Caffeinated
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Management
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Reminiscence
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Golden Sunset
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
     - Key: Telephone
       Value:
-        uiImage: {fileID: 21300000, guid: 54d0571485c7a844c89c846c862a9b42, type: 3}
+        uiImage: {fileID: -1043527906562012101, guid: 3e6a96d838666334ca25f3f8d571eabb, type: 3}
         owned: 0
         isUsable: 0
         effects: []
