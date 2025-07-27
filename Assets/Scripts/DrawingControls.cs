@@ -19,7 +19,7 @@ public class DrawingControls : MonoBehaviour
     {
         if (Input.GetKey(resetKey))
         {
-            drawable.ResetCanvas();
+            drawable.ResetToTexture();
         }
     }
 }
