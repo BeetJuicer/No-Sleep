@@ -45,4 +45,9 @@ public class MirrorAnimation : MonoBehaviour
         myRenderer.flipX = origRenderer.flipX;
 
     }
+
+    private void LateUpdate()
+    {
+        transform.position = new Vector3(originalTransform.position.x, transform.position.y, transform.position.z);
+    }
 }
