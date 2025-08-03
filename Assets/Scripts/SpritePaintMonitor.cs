@@ -138,7 +138,7 @@ public class SpritePaintMonitor : MonoBehaviour
         }
 
         // Debug info
-        Debug.Log($"Paint Progress: {paintProgress:P1} ({initialTransparentCount - currentTransparentCount}/{initialTransparentCount} pixels painted)");
+        //Debug.Log($"Paint Progress: {paintProgress:P1} ({initialTransparentCount - currentTransparentCount}/{initialTransparentCount} pixels painted)");
     }
 
     void OnFullyPainted()

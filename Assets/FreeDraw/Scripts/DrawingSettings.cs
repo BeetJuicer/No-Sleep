@@ -10,6 +10,12 @@ namespace FreeDraw
     {
         public static bool isCursorOverUI = false;
         public float Transparency = 1f;
+        [SerializeField] Color red;
+        [SerializeField] Color orange;
+        [SerializeField] Color purple;
+        [SerializeField] Color blue;
+        [SerializeField] Color green;
+        [SerializeField] Color yellow;
 
         // Changing pen settings is easy as changing the static properties Drawable.Pen_Colour and Drawable.Pen_Width
         public void SetMarkerColour(Color new_color)
@@ -34,6 +40,36 @@ namespace FreeDraw
             Drawable.Pen_Colour = c;
         }
 
+
+        public void SetMarkerRed()
+        {
+            SetMarkerColour(red);
+        }
+
+        public void SetMarkerOrange()
+        {
+            SetMarkerColour(orange);
+        }
+
+        public void SetMarkerPurple()
+        {
+            SetMarkerColour(purple);
+        }
+
+        public void SetMarkerBlue()
+        {
+            SetMarkerColour(blue);
+        }
+
+        public void SetMarkerGreen()
+        {
+            SetMarkerColour(green);
+        }
+
+        public void SetMarkerYellow()
+        {
+            SetMarkerColour(yellow);
+        }
 
         // Call these these to change the pen settings
         public void SetPenRed()

@@ -18,8 +18,6 @@ namespace FreeDraw
         public static Color Pen_Colour = Color.red;     // Change these to change the default drawing settings
         // PEN WIDTH (actually, it's a radius, in pixels)
         public static int Pen_Width = 3;
-
-
         public delegate void Brush_Function(Vector2 world_position);
         // This is the function called when a left click happens
         // Pass in your own custom one to change the brush type
@@ -49,14 +47,15 @@ namespace FreeDraw
         bool no_drawing_on_current_drag = false;
 
         bool isDrawing;
-        PlayerMovement player;
+        [SerializeField] Transform playerPaintBrush;
+        [SerializeField] Vector2 playerPosOffset;
 
-//////////////////////////////////////////////////////////////////////////////
-// BRUSH TYPES. Implement your own here
-// How to write your own brush method:
-// 1. Copy and rename the BrushTemplate() method below with your own brush
-// 2. Write your own code inside of this method
-// 3. Assign this method to the current_brush variable (see how PenBrush does this)
+        //////////////////////////////////////////////////////////////////////////////
+        // BRUSH TYPES. Implement your own here
+        // How to write your own brush method:
+        // 1. Copy and rename the BrushTemplate() method below with your own brush
+        // 2. Write your own code inside of this method
+        // 3. Assign this method to the current_brush variable (see how PenBrush does this)
 
 
         // When you want to make your own type of brush effects,
@@ -183,7 +182,6 @@ namespace FreeDraw
 
         private void Start()
         {
-            player = FindFirstObjectByType<PlayerMovement>();
             isDrawing = true;
         }
 
@@ -192,6 +190,7 @@ namespace FreeDraw
         void Update()
         {
             DrawOnPlayerWalk();
+            print("width: " + Pen_Width);
         }
 
         private void DrawOnLeftClick()
@@ -248,10 +247,10 @@ namespace FreeDraw
         {
             // Is the user holding down the left mouse button?
             bool key_held_down = Input.GetKey(KeyCode.J);
-            if (isDrawing && key_held_down && !no_drawing_on_current_drag)
+            if (isDrawing && key_held_down)
             {
                 // Convert mouse coordinates to world coordinates
-                Vector2 playerPos = player.transform.position;
+                Vector2 playerPos = playerPaintBrush.position;
 
                 // Check if the current mouse position overlaps our image
                 Collider2D hit = Physics2D.OverlapPoint(playerPos, Drawing_Layers.value);
@@ -259,7 +258,7 @@ namespace FreeDraw
                 {
                     // We're over the texture we're drawing on!
                     // Use whatever function the current brush is
-                    current_brush(playerPos);
+                    current_brush(playerPos + playerPosOffset);
                 }
                 else
                 {
@@ -407,9 +406,14 @@ namespace FreeDraw
             drawable_texture.SetPixels(clean_colours_array);
             drawable_texture.Apply();
         }
+        public void ResetToTexture()
+        {
+            if (reset_texture != drawable_texture && reset_texture != null && drawable_texture != null)
+            {
+                Graphics.CopyTexture(reset_texture, drawable_texture);
+            }
+        }
 
-
-        
         void Awake()
         {
             drawable = this;

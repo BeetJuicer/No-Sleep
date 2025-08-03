@@ -1,4 +1,5 @@
 using UnityEngine;
+using AYellowpaper.SerializedCollections;
 namespace TopDown
 {
 
@@ -14,6 +15,8 @@ namespace TopDown
         private PlayerMovement playerMovement;
         SpriteRenderer spRenderer;
 
+        [SerializedDictionary]
+
         private void Awake()
         {
             animator = GetComponent<Animator>();
@@ -24,6 +27,7 @@ namespace TopDown
         private void Update()
         {
             UpdateAnimations();
+
         }
 
         private void UpdateAnimations()
