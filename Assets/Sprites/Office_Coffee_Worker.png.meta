@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: f66f3882e8327274b80b67f62505dabc
+guid: deb1970a7957e3546974ac46584a3911
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4531247183088984242
-    second: Office_Panicking_Man_0
+      213: -4845279758106350617
+    second: Office_Coffee_Worker_0
   - first:
-      213: 7746107167983893196
-    second: Office_Panicking_Man_1
+      213: 7991548692254558081
+    second: Office_Coffee_Worker_1
   - first:
-      213: 4809138826471330682
-    second: Office_Panicking_Man_2
+      213: 8690117753718376202
+    second: Office_Coffee_Worker_2
   - first:
-      213: -627747094299406299
-    second: Office_Panicking_Man_3
+      213: -892022778271973034
+    second: Office_Coffee_Worker_3
   - first:
-      213: -46140014276615663
-    second: Office_Panicking_Man_4
+      213: 6063086244757907093
+    second: Office_Coffee_Worker_4
   - first:
-      213: 9132372799524246771
-    second: Office_Panicking_Man_5
+      213: 8154575464994584476
+    second: Office_Coffee_Worker_5
   - first:
-      213: 4201679477866442982
-    second: Office_Panicking_Man_6
+      213: -4626136795396960466
+    second: Office_Coffee_Worker_6
   - first:
-      213: 2510481729559754835
-    second: Office_Panicking_Man_7
+      213: 2519444378622028400
+    second: Office_Coffee_Worker_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Office_Panicking_Man_0
+      name: Office_Coffee_Worker_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4fdd7ec1b6cd11c0800000000000000
-      internalID: -4531247183088984242
+      spriteID: 7eb2eac3bbb12ccb0800000000000000
+      internalID: -4845279758106350617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_1
+      name: Office_Coffee_Worker_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cca79cbbd63bf7b60800000000000000
-      internalID: 7746107167983893196
+      spriteID: 187021fc13fa7ee60800000000000000
+      internalID: 7991548692254558081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_2
+      name: Office_Coffee_Worker_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a73dc53684e7db240800000000000000
-      internalID: 4809138826471330682
+      spriteID: a0703b60e00899870800000000000000
+      internalID: 8690117753718376202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_3
+      name: Office_Coffee_Worker_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 520108bf75bc947f0800000000000000
-      internalID: -627747094299406299
+      spriteID: 651ca816206ee93f0800000000000000
+      internalID: -892022778271973034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_4
+      name: Office_Coffee_Worker_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1126c17c6e31c5ff0800000000000000
-      internalID: -46140014276615663
+      spriteID: 5962a55e0d8642450800000000000000
+      internalID: 6063086244757907093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_5
+      name: Office_Coffee_Worker_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f415100da4bcbe70800000000000000
-      internalID: 9132372799524246771
+      spriteID: c973e1d3e2fda2170800000000000000
+      internalID: 8154575464994584476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_6
+      name: Office_Coffee_Worker_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e03742493d5f4a30800000000000000
-      internalID: 4201679477866442982
+      spriteID: e2f000c4819accfb0800000000000000
+      internalID: -4626136795396960466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Office_Panicking_Man_7
+      name: Office_Coffee_Worker_7
       rect:
         serializedVersion: 2
         x: 224
         y: 0
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3587489f4d507d220800000000000000
-      internalID: 2510481729559754835
+      spriteID: 07aee13505dd6f220800000000000000
+      internalID: 2519444378622028400
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 44ea50a29dc7a2848890a1791c01023e
+    spriteID: 3472bdc2acc2db54584ccbbac921b980
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Office_Panicking_Man_0: -4531247183088984242
-      Office_Panicking_Man_1: 7746107167983893196
-      Office_Panicking_Man_2: 4809138826471330682
-      Office_Panicking_Man_3: -627747094299406299
-      Office_Panicking_Man_4: -46140014276615663
-      Office_Panicking_Man_5: 9132372799524246771
-      Office_Panicking_Man_6: 4201679477866442982
-      Office_Panicking_Man_7: 2510481729559754835
+      Office_Coffee_Worker_0: -4845279758106350617
+      Office_Coffee_Worker_1: 7991548692254558081
+      Office_Coffee_Worker_2: 8690117753718376202
+      Office_Coffee_Worker_3: -892022778271973034
+      Office_Coffee_Worker_4: 6063086244757907093
+      Office_Coffee_Worker_5: 8154575464994584476
+      Office_Coffee_Worker_6: -4626136795396960466
+      Office_Coffee_Worker_7: 2519444378622028400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
