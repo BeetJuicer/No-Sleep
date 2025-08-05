@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -309,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office_Panicking_Man 1_0: -5425635531203779343
+      Office_Panicking_Man 1_1: 531312071651439564
+      Office_Panicking_Man 1_2: 2234117561958554700
+      Office_Panicking_Man 1_3: 7911080394643892803
+      Office_Panicking_Man 1_4: 1113198986206306329
+      Office_Panicking_Man 1_5: 1581635754876912136
+      Office_Panicking_Man 1_6: -4809269477093793390
+      Office_Panicking_Man 1_7: 7627123895155875567
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
