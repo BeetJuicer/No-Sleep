@@ -410,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chapter_2_Equations_0: 6106982502945738216
+      Chapter_2_Equations_1: 1866318693215962332
+      Chapter_2_Equations_10: -4941952669031141525
+      Chapter_2_Equations_2: 2224979016145872235
+      Chapter_2_Equations_3: -7388161881404300131
+      Chapter_2_Equations_4: 6572545284566172904
+      Chapter_2_Equations_5: -4923685445943589062
+      Chapter_2_Equations_6: 4785900497535588441
+      Chapter_2_Equations_7: -8695258855246904034
+      Chapter_2_Equations_8: 1390959329274306729
+      Chapter_2_Equations_9: 3813935624993731753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
