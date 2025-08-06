@@ -35,7 +35,7 @@ public class InputFieldAnswerManager : MonoBehaviour
     void Start()
     {
         InitializeDictionary();
-        InitializeVisuals();
+        //InitializeVisuals();
 
         if (checkAnswersButton != null)
         {
