@@ -23,12 +23,15 @@ namespace TopDown
 
         public void StartSequence()
         {
-            CurrentGameState = GameState.Sequence; 
+            CurrentGameState = GameState.Sequence;
+            print("starting sequence");
         }
 
         public void StopSequence()
         {
             CurrentGameState = GameState.Gameplay;
+            print("stopping sequence");
+
         }
     }
 }

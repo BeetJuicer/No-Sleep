@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 35145c72f02400b4d9d2bfb89f2200eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 56886588210637714
+    second: Going home_Clouds_1920x1080_0
+  - first:
+      213: -5937930620602218234
+    second: Going home_Clouds_1920x1080_1
+  - first:
+      213: 7707936242050531415
+    second: Going home_Clouds_1920x1080_2
+  - first:
+      213: 6795079928689047417
+    second: Going home_Clouds_1920x1080_3
+  - first:
+      213: 3316342756599553097
+    second: Going home_Clouds_1920x1080_4
+  - first:
+      213: 5057132815249157551
+    second: Going home_Clouds_1920x1080_5
+  - first:
+      213: -2804830894892540649
+    second: Going home_Clouds_1920x1080_6
+  - first:
+      213: 8108462812179506788
+    second: Going home_Clouds_1920x1080_7
+  - first:
+      213: 3535609758634138963
+    second: Going home_Clouds_1920x1080_8
+  - first:
+      213: 6051256657848428315
+    second: Going home_Clouds_1920x1080_9
+  - first:
+      213: -3786081641631283404
+    second: Going home_Clouds_1920x1080_10
+  - first:
+      213: -6051174175025502049
+    second: Going home_Clouds_1920x1080_11
+  - first:
+      213: -2145103850454490078
+    second: Going home_Clouds_1920x1080_12
+  - first:
+      213: 5411887489630584195
+    second: Going home_Clouds_1920x1080_13
+  - first:
+      213: -4481561766568513815
+    second: Going home_Clouds_1920x1080_14
+  - first:
+      213: -5636565869344002823
+    second: Going home_Clouds_1920x1080_15
+  - first:
+      213: -5163455140494786581
+    second: Going home_Clouds_1920x1080_16
+  - first:
+      213: -1631124417214361047
+    second: Going home_Clouds_1920x1080_17
+  - first:
+      213: -2027373286241241746
+    second: Going home_Clouds_1920x1080_18
+  - first:
+      213: 7171870162764454749
+    second: Going home_Clouds_1920x1080_19
+  - first:
+      213: -633701796470179002
+    second: Going home_Clouds_1920x1080_20
+  - first:
+      213: -7574097157806763239
+    second: Going home_Clouds_1920x1080_21
+  - first:
+      213: 7721147906493728504
+    second: Going home_Clouds_1920x1080_22
+  - first:
+      213: 8781271879523373043
+    second: Going home_Clouds_1920x1080_23
+  - first:
+      213: -273675012173744526
+    second: Going home_Clouds_1920x1080_24
+  - first:
+      213: 4160530684616135365
+    second: Going home_Clouds_1920x1080_25
+  - first:
+      213: 8651053539639250676
+    second: Going home_Clouds_1920x1080_26
+  - first:
+      213: -9001040474947329503
+    second: Going home_Clouds_1920x1080_27
+  - first:
+      213: 5608725136262504472
+    second: Going home_Clouds_1920x1080_28
+  - first:
+      213: 2907850534652806849
+    second: Going home_Clouds_1920x1080_29
+  - first:
+      213: -235959386641411448
+    second: Going home_Clouds_1920x1080_30
+  - first:
+      213: 2332820123758391767
+    second: Going home_Clouds_1920x1080_31
+  - first:
+      213: 3840781516015843691
+    second: Going home_Clouds_1920x1080_32
+  - first:
+      213: -5400738758850868788
+    second: Going home_Clouds_1920x1080_33
+  - first:
+      213: -5628702225914468878
+    second: Going home_Clouds_1920x1080_34
+  - first:
+      213: 3708092160209221555
+    second: Going home_Clouds_1920x1080_35
+  - first:
+      213: 173513205681876565
+    second: Going home_Clouds_1920x1080_36
+  - first:
+      213: -5346853340069842808
+    second: Going home_Clouds_1920x1080_37
+  - first:
+      213: 1351132131237140503
+    second: Going home_Clouds_1920x1080_38
+  - first:
+      213: -5036809310675482264
+    second: Going home_Clouds_1920x1080_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1049
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b67c2fc0a1ac000800000000000000
+      internalID: 56886588210637714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1064
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090712af8b389da0800000000000000
+      internalID: -5937930620602218234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1037
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75008ca7c2718fa60800000000000000
+      internalID: 7707936242050531415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1052
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977b5e97139fc4e50800000000000000
+      internalID: 6795079928689047417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1067
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c5e889a24060e20800000000000000
+      internalID: 3316342756599553097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1046
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada5ea608b8e2640800000000000000
+      internalID: 5057132815249157551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_6
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1046
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d93e6692d3319d0800000000000000
+      internalID: -2804830894892540649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_7
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1019
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ac6a97fb078070800000000000000
+      internalID: 8108462812179506788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_8
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 872
+        width: 370
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ddacfc752011130800000000000000
+      internalID: 3535609758634138963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1022
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17e5cf8ed16af350800000000000000
+      internalID: 6051256657848428315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1031
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43780f37ec2257bc0800000000000000
+      internalID: -3786081641631283404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1010
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f986697f529e50ca0800000000000000
+      internalID: -6051174175025502049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1025
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224665bc96f0b32e0800000000000000
+      internalID: -2145103850454490078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1025
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dbfc79ff2ea1b40800000000000000
+      internalID: 5411887489630584195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1010
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee26b0515b4ec1c0800000000000000
+      internalID: -4481561766568513815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_15
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 998
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fce8a4a435e6c1b0800000000000000
+      internalID: -5636565869344002823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1013
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befb42928e8b758b0800000000000000
+      internalID: -5163455140494786581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 923
+        width: 161
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d87f0cf41d59e0800000000000000
+      internalID: -1631124417214361047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 995
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e657976dcb25dd3e0800000000000000
+      internalID: -2027373286241241746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 995
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b5cc23ae9978360800000000000000
+      internalID: 7171870162764454749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 983
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b3ed7d293a437f0800000000000000
+      internalID: -633701796470179002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 992
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913d1a6a3c663e690800000000000000
+      internalID: -7574097157806763239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_22
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 905
+        width: 158
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f64fc0dc17072b60800000000000000
+      internalID: 7721147906493728504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 965
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff0e1fcf385dd970800000000000000
+      internalID: 8781271879523373043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_24
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 947
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276bb73c606b33cf0800000000000000
+      internalID: -273675012173744526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 962
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c258ad3d9c2db930800000000000000
+      internalID: 4160530684616135365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 950
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe451beb57be0870800000000000000
+      internalID: 8651053539639250676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 971
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122e9d9a061e51380800000000000000
+      internalID: -9001040474947329503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_28
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 965
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8102bbd8bc136dd40800000000000000
+      internalID: 5608725136262504472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 932
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c609e1a7a2ca5820800000000000000
+      internalID: 2907850534652806849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 941
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882d1d12034b9bcf0800000000000000
+      internalID: -235959386641411448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 920
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d17081fa87df5020800000000000000
+      internalID: 2332820123758391767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 211
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69b20280723d4530800000000000000
+      internalID: 3840781516015843691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 914
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9820296b8bc05b0800000000000000
+      internalID: -5400738758850868788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_34
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 695
+        width: 128
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5eaedc525d2e1b0800000000000000
+      internalID: -5628702225914468878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_35
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 509
+        width: 458
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b77ea36c2ac57330800000000000000
+      internalID: 3708092160209221555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_36
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 782
+        width: 223
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ee18c5751786200800000000000000
+      internalID: 173513205681876565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_37
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 632
+        width: 70
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880b60f47392cc5b0800000000000000
+      internalID: -5346853340069842808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_38
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 386
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7189107c38f20c210800000000000000
+      internalID: 1351132131237140503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Going home_Clouds_1920x1080_39
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 392
+        width: 724
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869cecb3e98a91ab0800000000000000
+      internalID: -5036809310675482264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

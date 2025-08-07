@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 namespace TopDown
 {
 
@@ -21,6 +22,8 @@ namespace TopDown
 
         public Vector2 CurrentVelocity { get { return currentVelocity; } private set { currentVelocity = value; } }
         public bool IsMoving => currentVelocity.magnitude > 0.1f;
+        public bool sideMode;
+        public float gravity;
 
         private void Awake()
         {
@@ -32,6 +35,11 @@ namespace TopDown
             rb.linearDamping = 0f;
             rb.angularDamping = 0f;
             rb.freezeRotation = true;
+        }
+
+        public void SideMode(bool active)
+        {
+            sideMode = active;
         }
 
         private void FixedUpdate()
@@ -46,6 +54,9 @@ namespace TopDown
             {
                 HandleMovement(playerInput.MovementInput);
             }
+
+            if (sideMode)
+                rb.linearVelocityY = gravity;
         }
 
         private void HandleMovement(Vector2 input)
