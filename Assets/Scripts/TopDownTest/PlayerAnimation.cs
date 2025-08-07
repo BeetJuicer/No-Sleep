@@ -26,6 +26,14 @@ namespace TopDown
 
         private void Update()
         {
+            if (GameManager.Instance.CurrentGameState == GameManager.GameState.Sequence)
+            {
+                animator.SetFloat(verticalParam, 0);
+                animator.SetFloat(horizontalParam, 0);
+                animator.SetBool(isMovingParam, false);
+                return;
+            }
+
             UpdateAnimations();
 
         }

@@ -146,6 +146,8 @@ namespace DialogueEditor
 
         public void StartConversation(NPCConversation conversation)
         {
+            TopDown.GameManager.Instance.StartSequence();
+
             m_currentNPCConversation = conversation;
             m_conversation = conversation.Deserialize();
             if (OnConversationStarted != null)
@@ -154,6 +156,7 @@ namespace DialogueEditor
             TurnOnUI();
             m_currentSpeech = m_conversation.Root;
             SetState(eState.TransitioningDialogueBoxOn);
+
         }
 
         public void EndConversation()
@@ -164,6 +167,7 @@ namespace DialogueEditor
                 OnConversationEnded.Invoke();
 
             m_currentNPCConversation.ConversationEnded();
+            TopDown.GameManager.Instance.StopSequence();
         }
 
         public void SelectNextOption()
