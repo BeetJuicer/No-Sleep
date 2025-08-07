@@ -163,11 +163,12 @@ namespace DialogueEditor
         {
             SetState(eState.TransitioningDialogueOff);
 
+            TopDown.GameManager.Instance.StopSequence();
+
             if (OnConversationEnded != null)
                 OnConversationEnded.Invoke();
 
             m_currentNPCConversation.ConversationEnded();
-            TopDown.GameManager.Instance.StopSequence();
         }
 
         public void SelectNextOption()
