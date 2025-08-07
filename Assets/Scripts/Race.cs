@@ -39,6 +39,8 @@ public class Race : MonoBehaviour
         {
             lossConversation.StartConversation();
         }
+
+        npc.FinishRace(!win);
     }
 
     private IEnumerator RaceCountdown()

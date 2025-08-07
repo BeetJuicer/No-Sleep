@@ -890,7 +890,7 @@ Transform:
   m_GameObject: {fileID: 39931439}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -508.97113, y: -27.089996, z: -10}
+  m_LocalPosition: {x: 7.128891, y: -24.98999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1312,11 +1312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4200631664897015295, guid: cb9487d7e3b7ee64284c10eb89b7d285, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -543.37
+      value: -32.4
       objectReference: {fileID: 0}
     - target: {fileID: 4200631664897015295, guid: cb9487d7e3b7ee64284c10eb89b7d285, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -231.5
+      value: -229
       objectReference: {fileID: 0}
     - target: {fileID: 4200631664897015295, guid: cb9487d7e3b7ee64284c10eb89b7d285, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4811,8 +4811,9 @@ GameObject:
   - component: {fileID: 309487485}
   - component: {fileID: 309487488}
   - component: {fileID: 309487487}
+  - component: {fileID: 309487489}
   m_Layer: 12
-  m_Name: NPC
+  m_Name: GymTeacher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4862,8 +4863,8 @@ SpriteRenderer:
   m_SortingLayerID: 363490495
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.99258995, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: -6532342363920714534, guid: 36ea55bd52fc5b145b18275a008f6614, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4900,7 +4901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d1ccbff3da8f34dbb26adbce380dde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 4.5
   direction: {x: 0, y: 1, z: 0}
 --- !u!61 &309487488
 BoxCollider2D:
@@ -4940,7 +4941,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3, y: 3}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4948,6 +4949,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &309487489
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309487484}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a201cfaf27f0d2b49be87c29b1a7ac1e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &310401277
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,7 +7832,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -543.37, y: -231.5, z: -10}
+  m_LocalPosition: {x: -32.4, y: -229, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8993,7 +9016,7 @@ Transform:
   m_GameObject: {fileID: 605108499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -543.37, y: -231.5, z: -10}
+  m_LocalPosition: {x: -32.4, y: -229, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21518,7 +21541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d53fe0221dbd04b9691fa1b1a4b6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {fileID: 497529863}
+  position: {fileID: 1578125373}
 --- !u!4 &1290274156
 Transform:
   m_ObjectHideFlags: 0
@@ -30746,6 +30769,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576004345}
   m_CullTransparentMesh: 1
+--- !u!4 &1578125373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6112157400527107311, guid: 453cf4328ca4a204bbc143c69b09e0f0, type: 3}
+  m_PrefabInstance: {fileID: 858900309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1580362081
 GameObject:
   m_ObjectHideFlags: 0
@@ -31117,7 +31145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1608188254
 Transform:
   m_ObjectHideFlags: 0
@@ -43408,7 +43436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d53fe0221dbd04b9691fa1b1a4b6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {fileID: 497529863}
+  position: {fileID: 1578125373}
 --- !u!1 &4050243245705809661
 GameObject:
   m_ObjectHideFlags: 0
