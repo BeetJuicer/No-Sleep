@@ -97,6 +97,14 @@ public class LoopingRoom : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.TryGetComponent(out TopDown.PlayerMovement mv))
+        {
+            EnterRoom();
+        }
+    }
+
     public void EnterRoom()
     {
         isLooping = true;
