@@ -7,8 +7,11 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private GameObject uiPanel;
     [SerializeField] private GameObject content;
     [SerializeField] private GameObject itemTemplatePrefab;
+    [SerializeField] private Sprite lockedImage;
     private Inventory inventory;
     Dictionary<string, GameObject> itemCards = new();
+
+    [SerializeField] private ItemDatabase effects;
 
     void Start()
     {
@@ -16,6 +19,21 @@ public class InventoryUI : MonoBehaviour
         inventory.onItemObtained += Inventory_onItemObtained;
         inventory.onItemRemoved += Inventory_onItemRemoved;
         inventory.onItemUsed += Inventory_onItemUsed;
+
+        foreach (var item in effects.items)
+        {
+            var itemCard = Instantiate(itemTemplatePrefab, content.transform);
+
+            // Set up the item card
+            var itemImage = itemCard.GetComponent<Image>();
+            if (itemImage != null)
+            {
+                itemImage.sprite = lockedImage;
+            }
+
+            // Set up use button if item is usable
+            itemCards.Add(item.Key, itemCard);
+        }
     }
 
     private void OnDestroy()
@@ -30,38 +48,7 @@ public class InventoryUI : MonoBehaviour
 
     private void Inventory_onItemObtained(string id, InventoryItem item)
     {
-        var itemCard = Instantiate(itemTemplatePrefab, content.transform);
-
-        // Set up the item card
-        var itemImage = itemCard.GetComponent<Image>();
-        if (itemImage != null)
-        {
-            itemImage.sprite = item.uiImage;
-        }
-
-        // Set up use button if item is usable
-        var useButton = itemCard.GetComponentInChildren<Button>();
-        if (useButton != null)
-        {
-            if (item.isUsable)
-            {
-                useButton.gameObject.SetActive(true);
-                useButton.onClick.AddListener(() => inventory.UseItem(id));
-
-                // Optional: Update button text
-                var buttonText = useButton.GetComponentInChildren<TextMeshProUGUI>();
-                if (buttonText != null)
-                {
-                    buttonText.text = "Use";
-                }
-            }
-            else
-            {
-                useButton.gameObject.SetActive(false);
-            }
-        }
-
-        itemCards.Add(id, itemCard);
+        itemCards[id].GetComponent<Image>().sprite = item.uiImage;
     }
 
     private void Inventory_onItemRemoved(string id, InventoryItem item)
