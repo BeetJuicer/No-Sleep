@@ -4561,6 +4561,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &233495200 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6990121123914676151, guid: 453cf4328ca4a204bbc143c69b09e0f0, type: 3}
+  m_PrefabInstance: {fileID: 858900309}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &236282069
 GameObject:
   m_ObjectHideFlags: 0
@@ -10734,7 +10739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 691099205}
   m_Layer: 0
-  m_Name: SP_Retierment
+  m_Name: SP_Hallway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18042,7 +18047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d53fe0221dbd04b9691fa1b1a4b6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {fileID: 0}
+  position: {fileID: 691099205}
 --- !u!114 &1029821145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30625,7 +30630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d53fe0221dbd04b9691fa1b1a4b6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: {fileID: 0}
+  position: {fileID: 233495200}
 --- !u!114 &1589410532
 MonoBehaviour:
   m_ObjectHideFlags: 0
