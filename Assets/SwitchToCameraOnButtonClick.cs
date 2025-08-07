@@ -24,7 +24,7 @@ public class SwitchToCameraOnButtonClick : MonoBehaviour
         }
     }
 
-    void SwitchCamera()
+    public void SwitchCamera()
     {
         print("swtiching cams");
         if (!isPrioritized)
