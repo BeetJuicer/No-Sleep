@@ -130,6 +130,11 @@ public class AudioManager : MonoBehaviour
 
     #region BGM Methods
 
+    public void PlayBGM(string bgmName)
+    {
+        PlayBGM(bgmName, true);
+    }
+
     public void PlayBGM(string bgmName, bool fade = true)
     {
         if (!bgmDict.ContainsKey(bgmName))

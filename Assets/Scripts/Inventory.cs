@@ -134,7 +134,7 @@ public class Inventory : MonoBehaviour
 
     public bool AreAllItemsAcquired()
     {
-        return itemsAcquired == GetTotalItemCount();
+        return itemsAcquired >= GetTotalItemCount();
     }
 
     // New method to use an item
