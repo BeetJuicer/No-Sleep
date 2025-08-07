@@ -5665,14 +5665,14 @@ MonoBehaviour:
   - Maybe we should call him. Ask if he can visit this weekend.
   - No... don't ask. Please. Just tell him his mother needs him here. Before the
     surgery.
-  - I'm scared I won't see another sunset like this. And if I don't... I want him
-    to remember that his parents loved watching these together. That we always saved
-    a place for him, even when he couldn't be here.
+  - 'I''m scared I won''t see another sunset like this. And if I don''t... '
+  - .... I just want him to remember that his parents loved watching these together.
+    That we always saved a place for him, even when he couldn't be here.
   - He knows that. He loves you.
   - Then why does it feel like I'm disappearing from his life before I actually do?
   - Distance isn't love, my darling. And love isn't distance.
   - I just want one more sunset. The three of us. Is that too much to ask for?
-  dialogueText: {fileID: 0}
+  dialogueText: {fileID: 1350233041}
   typeSpeed: 0.05
   displayDuration: 2
   fadeDuration: 1
@@ -5691,7 +5691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactKey: 101
   playerLayerName: Player
-  oneTimeUse: 0
+  oneTimeUse: 1
   interactionCooldown: 0.5
   promptUI: {fileID: 0}
   promptText: Press E to interact
@@ -22762,8 +22762,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 92, y: 327}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 51.974976, y: 280}
+  m_SizeDelta: {x: 579.5267, y: 290.2514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350233041
 MonoBehaviour:
@@ -22819,7 +22819,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
