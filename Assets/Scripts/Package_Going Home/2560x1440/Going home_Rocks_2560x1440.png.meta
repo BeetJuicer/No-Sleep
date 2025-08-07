@@ -210,7 +210,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Going home_Rocks_2560x1440_0: 2542327637993337115
+      Going home_Rocks_2560x1440_1: -5998843618949576890
+      Going home_Rocks_2560x1440_2: 7611534849349828970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

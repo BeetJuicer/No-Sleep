@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Going home_2560x1440_0: -2930117700858631544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

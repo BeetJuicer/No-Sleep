@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Going home_Night Sky_1280x720_0: -1115867339683457896
+      Going home_Night Sky_1280x720_1: -1242079832814621417
+      Going home_Night Sky_1280x720_2: 1443297869414078320
+      Going home_Night Sky_1280x720_3: -2929776359323907831
+      Going home_Night Sky_1280x720_4: -7721073531154735323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

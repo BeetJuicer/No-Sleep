@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sunset_Parents_0: 6704130510692831918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

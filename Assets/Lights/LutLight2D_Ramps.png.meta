@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: c09455186b2fc69408340c8a2a986957
+labels:
+- Grads
 TextureImporter:
   internalIDToNameTable:
   - first:
