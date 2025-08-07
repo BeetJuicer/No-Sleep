@@ -70,7 +70,7 @@ MonoBehaviour:
         effects: []
     - Key: Management
       Value:
-        uiImage: {fileID: -3342743851459327484, guid: edaa562f7d532e542a8e517e5e9fc96b, type: 3}
+        uiImage: {fileID: 2838287635325808322, guid: 3ce72a9c46052e7499f3161590570d5d, type: 3}
         owned: 0
         isUsable: 0
         effects: []

@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: ef77e427ae9e3134ea6da5f31dcd07d6
   - enabled: 1
+    path: Assets/Scenes/Egress.unity
+    guid: cf6cd4c3e44862f4cb401f14f7c2b66d
+  - enabled: 0
     path: Assets/Scenes/Expand.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
