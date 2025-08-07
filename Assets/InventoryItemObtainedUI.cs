@@ -7,6 +7,7 @@ public class InventoryItemObtainedUI : MonoBehaviour
     Inventory inventory;
     [SerializeField] TextMeshProUGUI itemNameText;
     [SerializeField] Image icon;
+    [SerializeField] bool showIcon;
     WavePopupAnimation popup = null;
 
 
@@ -22,7 +23,9 @@ public class InventoryItemObtainedUI : MonoBehaviour
     {
 
         itemNameText.text = key;
-        icon.sprite = item.uiImage;
+
+        if(showIcon)
+            icon.sprite = item.uiImage;
 
         if (popup)
             popup.Show();
